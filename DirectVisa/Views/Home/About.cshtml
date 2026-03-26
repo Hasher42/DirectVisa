@@ -1,4 +1,4 @@
-﻿@{
+@{
     ViewData["Title"] = "About";
 }
 <!--<< Breadcrumb Section Start >>-->
@@ -43,13 +43,13 @@
                     <div class="col-lg-6 mt-5 mt-lg-0">
                         <div class="about-content">
                             <div class="section-title">
-                                <span class="wow fadeInUp">About Company</span>
+                                <span class="wow fadeInUp">About Us</span>
                                 <h2 class="title-anim">
-                                    Welcome to Experience Visa Consulting Firm
+                                    UK Visa Immigration & Passport Specialists
                                 </h2>
                             </div>
                             <p class=" mt-4 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                                Transmds is the worldâ€™s driving worldwide coordinations supplier â€” we uphold industry and exchange the worldwide trade of merchandi
+                                UK Visas Direct are specialists in UK visa applications and appeals with many years of experience. We provide honest advice, professional representation, and reasonable fees across visit, study, work, family, settlement, and citizenship routes.
                             </p>
                             <div class="circle-progress-bar-wrapper">
                                 <div class="single-circle-bar wow fadeInUp" data-wow-delay=".3s">
@@ -57,7 +57,7 @@
                                     </div>
                                     <div class="content">
                                         <h6>
-                                            Quick & Easy <br>Process
+                                            Professional <br>Guidance
                                         </h6>
                                     </div>
                                 </div>
@@ -66,7 +66,7 @@
                                     </div>
                                     <div class="content">
                                         <h6>
-                                            99% Visa <br>Approvals
+                                            Appeals & <br>Reviews
                                         </h6>
                                     </div>
                                 </div>
@@ -74,22 +74,22 @@
                             <ul class="about-list wow fadeInUp" data-wow-delay=".7s">
                                 <li>
                                     <i class="far fa-check me-2"></i>
-                                    Immigration & Visa Consulting
+                                    Clear eligibility assessment and lawful route planning
                                 </li>
                                 <li>
                                     <i class="far fa-check me-2"></i>
-                                    Direct Online Interview
+                                    UK immigration applications, appeals, and reviews
                                 </li>
                                 <li>
                                     <i class="far fa-check me-2"></i>
-                                    99% Visa Approvals
+                                    Protection from fraud and illegal migration risks
                                 </li>
                             </ul>
                             <div class="about-author">
                                 <div class="about-button wow fadeInUp" data-wow-delay=".8s">
                                     <a href='@Url.Action("About", "Home")' class="theme-btn">
                                     <span>
-                                            Learn More Us 
+                                            Get Advice Now
                                             <i class="fas fa-chevron-right"></i>
                                     </span>
                                     </a>
@@ -98,7 +98,7 @@
                                     <img src="/assets/img/about/author.png" alt="author-img">
                                     <div class="content">
                                         <img src="/assets/img/about/signature.png" alt="signature">
-                                        <p>Ceo & Founder</p>
+                                        <p>UK Immigration Specialists</p>
                                     </div>
                                 </div>
                             </div>
@@ -110,76 +110,149 @@
     </section>
 
     <!--<< Service Section Start >>-->
-    <section class="service-section fix section-padding pt-0">
+    <section class="service-section about-services-section fix section-padding pt-0">
         <div class="container">
             <div class="section-title text-center">
-                <span class="wow fadeInUp">Service We Provide</span>
+                <span class="wow fadeInUp">Our Services</span>
                 <h2 class="title-anim">
-                    Explore Our Visa Citizenship <br>
-                    & Immigration Services
+                    We specialise in all types of immigration matters and provide comprehensive advice and representation <br>
+                    across all categories from first applications to settlement and citizenship.
                 </h2>
             </div>
-        </div>
-        <div class="service-wrapper">
-            <div class="row">
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
-                    <div class="service-card-items">
-                        <h3><a href='@Url.Action("ServiceDetails", "Home")'>Business Visa</a></h3>
-                        <p>
-                            Sit amet consectetur bestibulu ullamcorer arcustulla amet dolor tortor elementum
-                        </p>
-                        <div class="service-thumb">
-                            <img src="/assets/img/service/01.jpg" alt="img">
+            <div class="service-wrapper p-0">
+                <div class="row g-4">
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="service-card-items mt-0">
+                            <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "visit-visas" })'>Visit Visas</a></h3>
+                            <p>
+                                &bull; Standard Visitor (tourism/family/business/medical) <br>
+                                &bull; Permitted Paid Engagement <br>
+                                &bull; Short-term study (English language)
+                            </p>
+                            <div class="service-thumb">
+                                <img src="/assets/img/service/visit-visas.jpg" alt="Visit Visas">
+                            </div>
+                            <a href='@Url.Action("ServiceDetails", "Home", new { key = "visit-visas" })' class="link-btn">
+                                <span>read more</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
                         </div>
-                        <a href='@Url.Action("ServiceDetails", "Home")' class="link-btn">
-                            <span>read more</span>
-                            <i class="fas fa-chevron-right"></i>
-                        </a>
                     </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".4s">
-                    <div class="service-card-items">
-                        <h3><a href='@Url.Action("ServiceDetails", "Home")'>Student Visa</a></h3>
-                        <p>
-                            Sit amet consectetur bestibulu ullamcorer arcustulla amet dolor tortor elementum
-                        </p>
-                        <div class="service-thumb">
-                            <img src="/assets/img/service/02.jpg" alt="img">
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                        <div class="service-card-items mt-0">
+                            <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "student-graduate" })'>Student & Graduate</a></h3>
+                            <p>
+                                End-to-end support from CAS to visa, dependants, and post-study options. <br>
+                                &bull; Student (Child/General) <br>
+                                &bull; Graduate route <br>
+                                &bull; Switching to work routes
+                            </p>
+                            <div class="service-thumb">
+                                <img src="/assets/img/service/student-graduate.jpg" alt="Student and Graduate">
+                            </div>
+                            <a href='@Url.Action("ServiceDetails", "Home", new { key = "student-graduate" })' class="link-btn">
+                                <span>read more</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
                         </div>
-                        <a href='@Url.Action("ServiceDetails", "Home")' class="link-btn">
-                            <span>read more</span>
-                            <i class="fas fa-chevron-right"></i>
-                        </a>
                     </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".6s">
-                    <div class="service-card-items active">
-                        <h3><a href='@Url.Action("ServiceDetails", "Home")'>Work Visa</a></h3>
-                        <p>
-                            Sit amet consectetur bestibulu ullamcorer arcustulla amet dolor tortor elementum
-                        </p>
-                        <div class="service-thumb">
-                            <img src="/assets/img/service/03.jpg" alt="img">
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                        <div class="service-card-items active mt-0">
+                            <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "family-settlement" })'>Family & Settlement</a></h3>
+                            <p>
+                                Join or remain with loved ones and progress to Indefinite Leave to Remain (ILR) and citizenship. <br>
+                                &bull; Spouse/Partner (Appendix FM) <br>
+                                &bull; Parent/Child &amp; Adult Dependent Relative <br>
+                                &bull; Fianc&eacute;(e)/Proposed Civil Partner <br>
+                                &bull; Family reunion (protection route) <br>
+                                &bull; EU Settlement Scheme family permits <br>
+                                &bull; Long residence ILR (10-year), Naturalisation
+                            </p>
+                            <div class="service-thumb">
+                                <img src="/assets/img/service/family-settlement.jpg" alt="Family and Settlement">
+                            </div>
+                            <a href='@Url.Action("ServiceDetails", "Home", new { key = "family-settlement" })' class="link-btn">
+                                <span>read more</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
                         </div>
-                        <a href='@Url.Action("ServiceDetails", "Home")' class="link-btn">
-                            <span>read more</span>
-                            <i class="fas fa-chevron-right"></i>
-                        </a>
                     </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".8s">
-                    <div class="service-card-items">
-                        <h3><a href='@Url.Action("ServiceDetails", "Home")'>Touriest Visa</a></h3>
-                        <p>
-                            Sit amet consectetur bestibulu ullamcorer arcustulla amet dolor tortor elementum
-                        </p>
-                        <div class="service-thumb">
-                            <img src="/assets/img/service/04.jpg" alt="img">
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="service-card-items mt-0">
+                            <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "skilled-worker-health-care" })'>Skilled Worker & Health Care</a></h3>
+                            <p>
+                                &bull; Skilled Worker <br>
+                                &bull; Health &amp; Care Worker <br>
+                                &bull; Scale-up Worker <br>
+                                &bull; Creative Worker (T5) / Sportsperson <br>
+                                &bull; Skilled Worker Dependant <br>
+                                &bull; ILR on work routes
+                            </p>
+                            <div class="service-thumb">
+                                <img src="/assets/img/service/skilled-worker-health-care.png" alt="Skilled Worker and Health Care">
+                            </div>
+                            <a href='@Url.Action("ServiceDetails", "Home", new { key = "skilled-worker-health-care" })' class="link-btn">
+                                <span>read more</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
                         </div>
-                        <a href='@Url.Action("ServiceDetails", "Home")' class="link-btn">
-                            <span>read more</span>
-                            <i class="fas fa-chevron-right"></i>
-                        </a>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+                        <div class="service-card-items mt-0">
+                            <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "business-investment" })'>Business & Investment</a></h3>
+                            <p>
+                                Launch or scale innovative ventures and relocate senior talent to the UK. <br>
+                                &bull; Innovator Founder <br>
+                                &bull; Global Talent (Tech, Arts, Academia) <br>
+                                &bull; Global Business Mobility (Senior/Specialist Worker, Expansion Worker, Graduate Trainee, Service Supplier, UK Expansion) <br>
+                                &bull; UK Ancestry
+                            </p>
+                            <div class="service-thumb">
+                                <img src="/assets/img/service/business-investment.png" alt="Business and Investment">
+                            </div>
+                            <a href='@Url.Action("ServiceDetails", "Home", new { key = "business-investment" })' class="link-btn">
+                                <span>read more</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+                        <div class="service-card-items mt-0">
+                            <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "temporary-youth-routes" })'>Temporary & Youth Routes</a></h3>
+                            <p>
+                                Short-term work and cultural exchange routes for individuals and sponsors. <br>
+                                &bull; Seasonal Worker <br>
+                                &bull; Government Authorised Exchange <br>
+                                &bull; Charity/Religious Workers <br>
+                                &bull; International Sportsperson <br>
+                                &bull; Youth Mobility Scheme
+                            </p>
+                            <div class="service-thumb">
+                                <img src="/assets/img/service/temporary-youth-routes.png" alt="Temporary and Youth Routes">
+                            </div>
+                            <a href='@Url.Action("ServiceDetails", "Home", new { key = "temporary-youth-routes" })' class="link-btn">
+                                <span>read more</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="service-card-items mt-0">
+                            <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "appeal-and-reviews" })'>Appeal and Reviews</a></h3>
+                            <p>
+                                &bull; Pre-Action Protocol <br>
+                                &bull; Judicial Review <br>
+                                &bull; Appeals <br>
+                                &bull; Administrative Review
+                            </p>
+                            <div class="service-thumb">
+                                <img src="/assets/img/service/appeal-and-reviews.png" alt="Appeal and Reviews">
+                            </div>
+                            <a href='@Url.Action("ServiceDetails", "Home", new { key = "appeal-and-reviews" })' class="link-btn">
+                                <span>read more</span>
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -194,15 +267,14 @@
                     <div class="col-lg-5">
                         <div class="service-counter-content">
                             <div class="section-title">
-                                <span class="text-white wow fadeInUp">5m+ Trusted Our Clients</span>
+                                <span class="text-white wow fadeInUp">Lawful Immigration Pathways</span>
                                 <h2 class="text-white title-anim">
-                                    fly with us <br>your dream country
+                                    Safe, Legal Routes <br>to the UK
 
                                 </h2>
                             </div>
                             <p class="mt-4 mt-md-0 text-white wow fadeInUp" data-wow-delay=".5s">
-                                Transmds is the worldâ€™s driving worldwide <br>
-                                exchange the worldwide trade of 
+                                We strongly discourage illegal migration routes. Smuggling networks cause financial loss, exploitation, detention, and loss of life. Our team helps clients choose safe, lawful immigration options with clarity and confidence.
                             </p>
                             <a href='@Url.Action("Service", "Home")' class="theme-btn bg-white mt-4 wow fadeInUp" data-wow-delay=".7s">
                                 <span>

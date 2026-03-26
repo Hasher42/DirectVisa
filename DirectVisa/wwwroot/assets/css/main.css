@@ -1,5 +1,5 @@
 /*
-Theme Name: Visaland
+Theme Name: UK Visas Direct
 Author: Modina Theme
 Author URI: https://themeforest.net/user/modinatheme/
 Description: Immigration & Visa Consulting HTML Template
@@ -1142,27 +1142,43 @@ input.main-search-input::placeholder {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 25px;
 }
 .header-top-wrapper .contact-list {
   display: flex;
   align-items: center;
   gap: 25px;
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
 }
 .header-top-wrapper .contact-list li {
   font-size: 15px;
   color: var(--text2);
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.header-top-wrapper .contact-list li:last-child {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .header-top-wrapper .contact-list li a {
   color: var(--text2);
+  white-space: nowrap;
 }
 .header-top-wrapper .contact-list li i {
   color: var(--theme);
   margin-right: 10px;
+  flex-shrink: 0;
 }
 .header-top-wrapper .top-right {
   display: flex;
   align-items: center;
   gap: 65px;
+  flex: 0 0 auto;
+  white-space: nowrap;
 }
 .header-top-wrapper .top-right .social-icon {
   gap: 15px;
@@ -4495,6 +4511,22 @@ input.main-search-input::placeholder {
   padding: 30px;
   background-color: var(--bg);
   transition: all 0.4s ease-in-out;
+}
+.service-wrapper.p-0 .service-card-items {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.service-wrapper.p-0 .service-card-items p {
+  flex: 1 1 auto;
+}
+.service-wrapper.p-0 .service-card-items .service-thumb {
+  height: 200px;
+  flex-shrink: 0;
+}
+.service-wrapper.p-0 .service-card-items .service-thumb img {
+  object-fit: cover;
+  object-position: center;
 }
 .service-wrapper .service-card-items h3 {
   margin-bottom: 15px;

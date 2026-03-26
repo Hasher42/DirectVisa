@@ -1,4 +1,4 @@
-﻿@{
+@{
     ViewData["Title"] = "Visa Services";
 }
 <!--<< Breadcrumb Section Start >>-->
@@ -28,16 +28,15 @@
             <section class="service-section section-bg-4 fix section-padding">
                 <div class="container">
                     <div class="title-section-area">
-                        <div class="section-title">
-                            <span class="wow fadeInUp">Visa Categories</span>  
+                    <div class="section-title text-center">
+                            <span class="wow fadeInUp">Our Services</span>  
                             <h2 class="title-anim">
                                 Outstanding Immigration <br>  Visa Services.
                             </h2>  
-                        </div>
                         <p class="wow fadeInUp" data-wow-delay=".5s">
-                            Transmds is the worldâ€™s driving worldwide coordinations supplier <br> uphold industry and exchange the worldwide trade of merchandi <br>
-                            do eiusmod tempor incididunt ut labore et simply free text dolore
+                            We specialise in all types of immigration matters and provide comprehensive advice and representation across all categories from first applications to settlement and citizenship.
                         </p>
+                        </div>
                     </div>
                     <div class="service-wrapper-3">
                         <div class="service-box-items style-2 wow fadeInUp" data-wow-delay=".3s">
@@ -46,8 +45,8 @@
                             </div>
                             <div class="content">
                                 <h6>
-                                    <a href='@Url.Action("ServiceDetails", "Home")'>
-                                        Working Visa
+                                    <a href='@Url.Action("ServiceDetails", "Home", new { key = "visit-visas" })'>
+                                        Visit Visas
                                     </a>
                                 </h6>
                             </div>
@@ -58,8 +57,8 @@
                             </div>
                             <div class="content">
                                 <h6>
-                                    <a href='@Url.Action("ServiceDetails", "Home")'>
-                                        Tourist Visa
+                                    <a href='@Url.Action("ServiceDetails", "Home", new { key = "student-graduate" })'>
+                                        Student & Graduate
                                     </a>
                                 </h6>
                             </div>
@@ -70,8 +69,8 @@
                             </div>
                             <div class="content">
                                 <h6>
-                                    <a href='@Url.Action("ServiceDetails", "Home")'>
-                                        Medical Visa
+                                    <a href='@Url.Action("ServiceDetails", "Home", new { key = "family-settlement" })'>
+                                        Family & Settlement
                                     </a>
                                 </h6>
                             </div>
@@ -82,8 +81,8 @@
                             </div>
                             <div class="content">
                                 <h6>
-                                    <a href='@Url.Action("ServiceDetails", "Home")'>
-                                        Student Visa
+                                    <a href='@Url.Action("ServiceDetails", "Home", new { key = "skilled-worker-health-care" })'>
+                                        Skilled Worker & Health Care
                                     </a>
                                 </h6>
                             </div>
@@ -94,8 +93,8 @@
                             </div>
                             <div class="content">
                                 <h6>
-                                    <a href='@Url.Action("ServiceDetails", "Home")'>
-                                        Family Visa
+                                    <a href='@Url.Action("ServiceDetails", "Home", new { key = "business-investment" })'>
+                                        Business & Investment
                                     </a>
                                 </h6>
                             </div>
@@ -120,14 +119,16 @@
                         <div class="row g-4">
                              <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                  <div class="service-card-items mt-0">
-                                     <h3><a href='@Url.Action("ServiceDetails", "Home")'>Business Visa</a></h3>
+                                     <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "visit-visas" })'>Visit Visas</a></h3>
                                      <p>
-                                         Sit amet consectetur bestibulu ullamcorer arcustulla amet dolor tortor elementum
+                                         &bull; Standard Visitor (tourism/family/business/medical) <br>
+                                         &bull; Permitted Paid Engagement <br>
+                                         &bull; Short-term study (English language)
                                      </p>
                                      <div class="service-thumb">
-                                         <img src="/assets/img/service/01.jpg" alt="img">
+                                         <img src="/assets/img/service/visit-visas.jpg" alt="Visit Visas">
                                      </div>
-                                     <a href='@Url.Action("ServiceDetails", "Home")' class="link-btn">
+                                     <a href='@Url.Action("ServiceDetails", "Home", new { key = "visit-visas" })' class="link-btn">
                                          <span>read more</span>
                                          <i class="fas fa-chevron-right"></i>
                                      </a>
@@ -135,14 +136,17 @@
                              </div>
                              <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                                  <div class="service-card-items mt-0">
-                                     <h3><a href='@Url.Action("ServiceDetails", "Home")'>Student Visa</a></h3>
+                                     <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "student-graduate" })'>Student & Graduate</a></h3>
                                      <p>
-                                         Sit amet consectetur bestibulu ullamcorer arcustulla amet dolor tortor elementum
+                                         End-to-end support from CAS to visa, dependants, and post-study options. <br>
+                                         &bull; Student (Child/General) <br>
+                                         &bull; Graduate route <br>
+                                         &bull; Switching to work routes
                                      </p>
                                      <div class="service-thumb">
-                                         <img src="/assets/img/service/02.jpg" alt="img">
+                                         <img src="/assets/img/service/student-graduate.jpg" alt="Student and Graduate">
                                      </div>
-                                     <a href='@Url.Action("ServiceDetails", "Home")' class="link-btn">
+                                     <a href='@Url.Action("ServiceDetails", "Home", new { key = "student-graduate" })' class="link-btn">
                                          <span>read more</span>
                                          <i class="fas fa-chevron-right"></i>
                                      </a>
@@ -150,14 +154,20 @@
                              </div>
                              <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                                  <div class="service-card-items active mt-0">
-                                     <h3><a href='@Url.Action("ServiceDetails", "Home")'>Work Visa</a></h3>
+                                     <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "family-settlement" })'>Family & Settlement</a></h3>
                                      <p>
-                                         Sit amet consectetur bestibulu ullamcorer arcustulla amet dolor tortor elementum
+                                         Join or remain with loved ones and progress to Indefinite Leave to Remain (ILR) and citizenship. <br>
+                                         &bull; Spouse/Partner (Appendix FM) <br>
+                                         &bull; Parent/Child &amp; Adult Dependent Relative <br>
+                                         &bull; Fianc&eacute;(e)/Proposed Civil Partner <br>
+                                         &bull; Family reunion (protection route) <br>
+                                         &bull; EU Settlement Scheme family permits <br>
+                                         &bull; Long residence ILR (10-year), Naturalisation
                                      </p>
                                      <div class="service-thumb">
-                                         <img src="/assets/img/service/03.jpg" alt="img">
+                                         <img src="/assets/img/service/family-settlement.jpg" alt="Family and Settlement">
                                      </div>
-                                     <a href='@Url.Action("ServiceDetails", "Home")' class="link-btn">
+                                     <a href='@Url.Action("ServiceDetails", "Home", new { key = "family-settlement" })' class="link-btn">
                                          <span>read more</span>
                                          <i class="fas fa-chevron-right"></i>
                                      </a>
@@ -165,14 +175,19 @@
                              </div>
                              <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                  <div class="service-card-items mt-0">
-                                     <h3><a href='@Url.Action("ServiceDetails", "Home")'>Touriest Visa</a></h3>
+                                     <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "skilled-worker-health-care" })'>Skilled Worker & Health Care</a></h3>
                                      <p>
-                                         Sit amet consectetur bestibulu ullamcorer arcustulla amet dolor tortor elementum
+                                         &bull; Skilled Worker <br>
+                                         &bull; Health &amp; Care Worker <br>
+                                         &bull; Scale-up Worker <br>
+                                         &bull; Creative Worker (T5) / Sportsperson <br>
+                                         &bull; Skilled Worker Dependant <br>
+                                         &bull; ILR on work routes
                                      </p>
                                      <div class="service-thumb">
-                                         <img src="/assets/img/service/04.jpg" alt="img">
+                                         <img src="/assets/img/service/skilled-worker-health-care.png" alt="img">
                                      </div>
-                                     <a href='@Url.Action("ServiceDetails", "Home")' class="link-btn">
+                                     <a href='@Url.Action("ServiceDetails", "Home", new { key = "skilled-worker-health-care" })' class="link-btn">
                                          <span>read more</span>
                                          <i class="fas fa-chevron-right"></i>
                                      </a>
@@ -180,14 +195,18 @@
                              </div>
                              <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                                  <div class="service-card-items mt-0">
-                                     <h3><a href='@Url.Action("ServiceDetails", "Home")'>Business Visa</a></h3>
+                                     <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "business-investment" })'>Business & Investment</a></h3>
                                      <p>
-                                         Sit amet consectetur bestibulu ullamcorer arcustulla amet dolor tortor elementum
+                                         Launch or scale innovative ventures and relocate senior talent to the UK. <br>
+                                         &bull; Innovator Founder <br>
+                                         &bull; Global Talent (Tech, Arts, Academia) <br>
+                                         &bull; Global Business Mobility (Senior/Specialist Worker, Expansion Worker, Graduate Trainee, Service Supplier, UK Expansion) <br>
+                                         &bull; UK Ancestry
                                      </p>
                                      <div class="service-thumb">
-                                         <img src="/assets/img/service/01.jpg" alt="img">
+                                     <img src="/assets/img/service/business-investment.png" alt="img">
                                      </div>
-                                     <a href='@Url.Action("ServiceDetails", "Home")' class="link-btn">
+                                     <a href='@Url.Action("ServiceDetails", "Home", new { key = "business-investment" })' class="link-btn">
                                          <span>read more</span>
                                          <i class="fas fa-chevron-right"></i>
                                      </a>
@@ -195,14 +214,37 @@
                              </div>
                              <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
                                  <div class="service-card-items mt-0">
-                                     <h3><a href='@Url.Action("ServiceDetails", "Home")'>Student Visa</a></h3>
+                                     <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "temporary-youth-routes" })'>Temporary & Youth Routes</a></h3>
                                      <p>
-                                         Sit amet consectetur bestibulu ullamcorer arcustulla amet dolor tortor elementum
+                                         Short-term work and cultural exchange routes for individuals and sponsors. <br>
+                                         &bull; Seasonal Worker <br>
+                                         &bull; Government Authorised Exchange <br>
+                                         &bull; Charity/Religious Workers <br>
+                                         &bull; International Sportsperson <br>
+                                         &bull; Youth Mobility Scheme
                                      </p>
                                      <div class="service-thumb">
-                                         <img src="/assets/img/service/02.jpg" alt="img">
+                                         <img src="/assets/img/service/temporary-youth-routes.png" alt="img">
                                      </div>
-                                     <a href='@Url.Action("ServiceDetails", "Home")' class="link-btn">
+                                     <a href='@Url.Action("ServiceDetails", "Home", new { key = "temporary-youth-routes" })' class="link-btn">
+                                         <span>read more</span>
+                                         <i class="fas fa-chevron-right"></i>
+                                     </a>
+                                 </div>
+                             </div>
+                             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                                 <div class="service-card-items mt-0">
+                                     <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "appeal-and-reviews" })'>Appeal and Reviews</a></h3>
+                                     <p>
+                                         &bull; Pre-Action Protocol <br>
+                                         &bull; Judicial Review <br>
+                                         &bull; Appeals <br>
+                                         &bull; Administrative Review
+                                     </p>
+                                     <div class="service-thumb">
+                                         <img src="/assets/img/service/appeal-and-reviews.png" alt="img">
+                                     </div>
+                                     <a href='@Url.Action("ServiceDetails", "Home", new { key = "appeal-and-reviews" })' class="link-btn">
                                          <span>read more</span>
                                          <i class="fas fa-chevron-right"></i>
                                      </a>
@@ -241,16 +283,16 @@
                                 <div class="service-visa-thumb">
                                     <img src="/assets/img/visa/01.jpg" alt="img">
                                     <img src="/assets/img/visa/01.jpg" alt="img">
-                                    <a href='@Url.Action("ServiceDetails", "Home")' class="image-overlay">
+                                    <a href='@Url.Action("ServiceDetails", "Home", new { key = "student-graduate" })' class="image-overlay">
                                         <i class="fal fa-plus"></i>
                                     </a>
                                 </div>
                                 <div class="service-visa-content">
-                                    <h3><a href='@Url.Action("ServiceDetails", "Home")'>Student Visa</a></h3>
+                                    <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "student-graduate" })'>Student & Graduate</a></h3>
                                     <p>
-                                        Quis autem vel eum iure reprehenderit quin eaes voluptate velit esse quam
+                                        End-to-end support from CAS to visa, dependants, and post-study options.
                                     </p>
-                                    <a href='@Url.Action("ServiceDetails", "Home")' class="link-btn">
+                                    <a href='@Url.Action("ServiceDetails", "Home", new { key = "student-graduate" })' class="link-btn">
                                         <span>read more</span>
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
@@ -262,16 +304,16 @@
                                 <div class="service-visa-thumb">
                                     <img src="/assets/img/visa/02.jpg" alt="img">
                                     <img src="/assets/img/visa/02.jpg" alt="img">
-                                    <a href='@Url.Action("ServiceDetails", "Home")' class="image-overlay">
+                                    <a href='@Url.Action("ServiceDetails", "Home", new { key = "business-investment" })' class="image-overlay">
                                         <i class="fal fa-plus"></i>
                                     </a>
                                 </div>
                                 <div class="service-visa-content">
-                                    <h3><a href='@Url.Action("ServiceDetails", "Home")'>business Visa</a></h3>
+                                    <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "business-investment" })'>Business & Investment</a></h3>
                                     <p>
-                                        Quis autem vel eum iure reprehenderit quin eaes voluptate velit esse quam
+                                        Launch or scale innovative ventures and relocate senior talent to the UK.
                                     </p>
-                                    <a href='@Url.Action("ServiceDetails", "Home")' class="link-btn">
+                                    <a href='@Url.Action("ServiceDetails", "Home", new { key = "business-investment" })' class="link-btn">
                                         <span>read more</span>
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
@@ -283,16 +325,16 @@
                                 <div class="service-visa-thumb">
                                     <img src="/assets/img/visa/03.jpg" alt="img">
                                     <img src="/assets/img/visa/03.jpg" alt="img">
-                                    <a href='@Url.Action("ServiceDetails", "Home")' class="image-overlay">
+                                    <a href='@Url.Action("ServiceDetails", "Home", new { key = "visit-visas" })' class="image-overlay">
                                         <i class="fal fa-plus"></i>
                                     </a>
                                 </div>
                                 <div class="service-visa-content">
-                                    <h3><a href='@Url.Action("ServiceDetails", "Home")'>Tourist Visa</a></h3>
+                                    <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "visit-visas" })'>Visit Visas</a></h3>
                                     <p>
-                                        Quis autem vel eum iure reprehenderit quin eaes voluptate velit esse quam
+                                        Standard Visitor, Permitted Paid Engagement, and short-term study (English language).
                                     </p>
-                                    <a href='@Url.Action("ServiceDetails", "Home")' class="link-btn">
+                                    <a href='@Url.Action("ServiceDetails", "Home", new { key = "visit-visas" })' class="link-btn">
                                         <span>read more</span>
                                         <i class="fas fa-chevron-right"></i>
                                     </a>
