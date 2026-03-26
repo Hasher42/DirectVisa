@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C#\\DirectVisa\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{847FAE22-BF15-43BF-9052-297B1B3999F2}|DirectVisa\\DirectVisa.csproj|d:\\c#\\directvisa\\directvisa\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{847FAE22-BF15-43BF-9052-297B1B3999F2}|DirectVisa\\DirectVisa.csproj|solutionrelative:directvisa\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{847FAE22-BF15-43BF-9052-297B1B3999F2}|DirectVisa\\DirectVisa.csproj|d:\\c#\\directvisa\\directvisa\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{847FAE22-BF15-43BF-9052-297B1B3999F2}|DirectVisa\\DirectVisa.csproj|solutionrelative:directvisa\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\C#\\DirectVisa\\DirectVisa\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DirectVisa\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\C#\\DirectVisa\\DirectVisa\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DirectVisa\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-20T21:10:07.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\C#\\DirectVisa\\DirectVisa\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "DirectVisa\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\C#\\DirectVisa\\DirectVisa\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "DirectVisa\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-03-26T10:54:38.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

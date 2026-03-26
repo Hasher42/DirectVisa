@@ -1,0 +1,7 @@
+D:\C#\DirectVisa\DirectVisa\obj\Release\net8.0\PubTmp\Out\DirectVisa.exe
+D:\C#\DirectVisa\DirectVisa\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\C#\DirectVisa\DirectVisa\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\C#\DirectVisa\DirectVisa\obj\Release\net8.0\PubTmp\Out\DirectVisa.dll
+D:\C#\DirectVisa\DirectVisa\obj\Release\net8.0\PubTmp\Out\DirectVisa.deps.json
+D:\C#\DirectVisa\DirectVisa\obj\Release\net8.0\PubTmp\Out\DirectVisa.runtimeconfig.json
+D:\C#\DirectVisa\DirectVisa\obj\Release\net8.0\PubTmp\Out\DirectVisa.pdb

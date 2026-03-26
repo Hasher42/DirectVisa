@@ -1,0 +1,230 @@
+﻿@{
+    ViewData["Title"] = "Blog";
+}
+<!--<< Breadcrumb Section Start >>-->
+        <div class="breadcrumb-wrapper section-padding bg-cover" style="background-image: url('/assets/img/breadcrumb.jpg');">
+            <div class="container">
+                <div class="page-heading">
+                    <h1 class="wow fadeInUp" data-wow-delay=".3s">standard blog</h1>
+                    <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+                        <li>
+                            <a href='@Url.Action("Index", "Home")'>
+                            Home Page
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fal fa-minus"></i>
+                        </li>
+                        <li>
+                            standard blog
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--<< Blog Wrapper Here >>-->
+        <section class="blog-wrapper news-wrapper section-padding border-bottom">
+            <div class="container">
+                <div class="news-area">
+                    <div class="row">
+                        <div class="col-12 col-lg-8">
+                            <div class="blog-posts">
+                                <div class="single-blog-post">
+                                    <div class="post-featured-thumb bg-cover" style="background-image: url('/assets/img/news/post-1.jpg');">
+                                       
+                                    </div>
+                                    <div class="post-content">
+                                        <div class="post-meta">
+                                            <span><i class="fal fa-comments"></i>35 Comments</span>
+                                            <span><i class="fal fa-calendar-alt"></i>24th March 2024</span>
+                                        </div>
+                                        <h2 class="title-anim">
+                                            <a href='@Url.Action("NewsDetails", "Home")'>
+                                                How to Ensure Direct for The Hassle-Free Visa Process
+                                            </a>
+                                         </h2>
+                                         <p>
+                                            There are many variations of passages of Lorem Ipsum available, but majority have suffered
+                                            teration in some form, by injected humour, or randomised words which don't look even slight
+                                            believable. If you are going to use a passage of Lorem Ipsum.
+                                         </p>
+                                         <a href='@Url.Action("NewsDetails", "Home")' class="theme-btn mt-4 line-height">
+                                            <span>READ MORE <i class="fas fa-chevron-right"></i></span>
+                                         </a>
+                                    </div>
+                                </div>
+                                <div class="single-blog-post">
+                                    <div class="post-featured-thumb bg-cover" style="background-image: url('/assets/img/news/post-2.jpg');">
+                                        
+                                    </div>
+                                    <div class="post-content">
+                                        <div class="post-meta">
+                                            <span><i class="fal fa-comments"></i>35 Comments</span>
+                                            <span><i class="fal fa-calendar-alt"></i>24th March 2024</span>
+                                        </div>
+                                        <h2 class="title-anim">
+                                            <a href='@Url.Action("NewsDetails", "Home")'>
+                                                When an Unknown Printer Took a Galley of Type
+                                            </a>
+                                         </h2>
+                                         <p>
+                                            There are many variations of passages of Lorem Ipsum available, but majority have suffered
+                                            teration in some form, by injected humour, or randomised words which don't look even slight
+                                            believable. If you are going to use a passage of Lorem Ipsum.
+                                         </p>
+                                         <a href='@Url.Action("NewsDetails", "Home")' class="theme-btn mt-4 line-height">
+                                            <span>READ MORE <i class="fas fa-chevron-right"></i></span>
+                                         </a>
+                                    </div>
+                                </div>
+                                <div class="single-blog-post">
+                                    <div class="post-featured-thumb bg-cover" style="background-image: url('/assets/img/news/post-3.jpg');">
+                                        
+                                    </div>
+                                    <div class="post-content">
+                                        <div class="post-meta">
+                                            <span><i class="fal fa-comments"></i>35 Comments</span>
+                                            <span><i class="fal fa-calendar-alt"></i>24th March 2024</span>
+                                        </div>
+                                        <h2 class="title-anim">
+                                            <a href='@Url.Action("NewsDetails", "Home")'>
+                                                It Has Survived not Only Five Centuries, but Also
+                                            </a>
+                                         </h2>
+                                         <p>
+                                            There are many variations of passages of Lorem Ipsum available, but majority have suffered
+                                            teration in some form, by injected humour, or randomised words which don't look even slight
+                                            believable. If you are going to use a passage of Lorem Ipsum.
+                                         </p>
+                                         <a href='@Url.Action("NewsDetails", "Home")' class="theme-btn mt-4 line-height">
+                                            <span>READ MORE <i class="fas fa-chevron-right"></i></span>
+                                         </a>
+                                    </div>
+                                </div>
+                                <div class="single-blog-post quote-post format-quote">
+                                    <div class="post-content text-white bg-cover">
+                                        <div class="quote-content">
+                                            <div class="icon">
+                                                <i class="fas fa-quote-left"></i>
+                                            </div>
+                                            <div class="quote-text">
+                                                <h2 class="title-anim">Excepteur sint occaecat cupida tat non proident, sunt in.</h2>
+                                                <div class="post-meta">
+                                                    <span><i class="fal fa-comments"></i>35 Comments</span>
+                                                    <span><i class="fal fa-calendar-alt"></i>24th March 2024</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="page-nav-wrap mt-5 text-center">
+                                <ul>
+                                    <li><a class="page-numbers" href="#"><i class="fal fa-long-arrow-left"></i></a></li>
+                                    <li><a class="page-numbers" href="#">01</a></li>
+                                    <li><a class="page-numbers" href="#">02</a></li>
+                                    <li><a class="page-numbers" href="#">..</a></li>
+                                    <li><a class="page-numbers" href="#">10</a></li>
+                                    <li><a class="page-numbers" href="#">11</a></li>
+                                    <li><a class="page-numbers" href="#"><i class="fal fa-long-arrow-right"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-4">
+                            <div class="main-sidebar">
+                                <div class="single-sidebar-widget">
+                                    <div class="wid-title">
+                                        <h3>Search</h3>
+                                    </div>
+                                    <div class="search_widget">
+                                        <form action="#">
+                                            <input type="text" placeholder="Keywords here....">
+                                            <button type="submit"><i class="fal fa-search"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="single-sidebar-widget">
+                                    <div class="wid-title">
+                                        <h3>Popular Feeds</h3>
+                                    </div>
+                                    <div class="popular-posts">
+                                        <div class="single-post-item">
+                                            <div class="thumb bg-cover" style="background-image: url('/assets/img/news/pp1.jpg');"></div>
+                                            <div class="post-content">
+                                                <h5><a href='@Url.Action("NewsDetails", "Home")'>
+                                                    Visa Application Fee Increases From July 2024</a></h5>
+                                                <div class="post-date">
+                                                    <i class="far fa-calendar-alt"></i>24th March 2024
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="single-post-item">
+                                            <div class="thumb bg-cover" style="background-image: url('/assets/img/news/pp2.jpg');"></div>
+                                            <div class="post-content">
+                                                <h5><a href='@Url.Action("NewsDetails", "Home")'>Top 25 Most In Demand Jobs In Canada</a></h5>
+                                                <div class="post-date">
+                                                    <i class="far fa-calendar-alt"></i>25th March 2024
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="single-post-item">
+                                            <div class="thumb bg-cover" style="background-image: url('/assets/img/news/pp3.jpg');"></div>
+                                            <div class="post-content">
+                                                <h5><a href='@Url.Action("NewsDetails", "Home")'>The Human Rights And Study Visa Programs</a></h5>
+                                                <div class="post-date">
+                                                    <i class="far fa-calendar-alt"></i>26th March 2024
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-sidebar-widget">
+                                    <div class="wid-title">
+                                        <h3>Categories</h3>
+                                    </div>
+                                    <div class="widget_categories">
+                                        <ul>
+                                            <li><a href='@Url.Action("News", "Home")'>Abroad Study <span>23</span></a></li>
+                                            <li><a href='@Url.Action("News", "Home")'>Green card <span>24</span></a></li>
+                                            <li><a href='@Url.Action("News", "Home")'>PR Applicants <span>11</span></a></li>
+                                            <li><a href='@Url.Action("News", "Home")'>Travel Insurance <span>05</span></a></li>
+                                            <li><a href='@Url.Action("News", "Home")'>Visa Consultancy <span>06</span></a></li>
+                                            <li><a href='@Url.Action("News", "Home")'>Work Permits <span>10</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="single-sidebar-widget">
+                                    <div class="wid-title">
+                                        <h3>Never Miss News</h3>
+                                    </div>
+                                    <div class="social-link">
+                                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fab fa-twitter"></i></a>
+                                        <a href="#"><i class="fab fa-instagram"></i></a>
+                                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                                        <a href="#"><i class="fab fa-youtube"></i></a>
+                                    </div>
+                                </div>
+                                <div class="single-sidebar-widget">
+                                    <div class="wid-title">
+                                        <h3>Popular Tags</h3>
+                                    </div>
+                                    <div class="tagcloud">
+                                        <a href='@Url.Action("News", "Home")'>Business</a>     
+                                        <a href='@Url.Action("NewsDetails", "Home")'>Consulting</a>
+                                        <a href='@Url.Action("NewsDetails", "Home")'>Education</a>
+                                        <a href='@Url.Action("NewsDetails", "Home")'>Immigration</a>
+                                        <a href='@Url.Action("NewsDetails", "Home")'>Travel</a>
+                                        <a href='@Url.Action("NewsDetails", "Home")'>Visa</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
