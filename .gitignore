@@ -1,3 +1,15 @@
 .vs/
 **/bin/
 **/obj/
+
+# Visual Studio user files
+*.user
+*.rsuser
+*.suo
+
+# Build output and caches
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+TestResults/

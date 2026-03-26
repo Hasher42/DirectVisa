@@ -34,3 +34,29 @@ Version: 1.0.0
 
 Main Style file-> assets/css/main.css 
 */
+
+/* Custom logo sizing to prevent layout breakage with PNG logos */
+.header-main .logo img,
+.offcanvas__logo img {
+  display: block;
+  width: auto;
+  max-height: 58px;
+}
+
+.footer-section .widget-head img {
+  display: block;
+  width: auto;
+  max-width: 220px;
+  height: auto;
+}
+
+@media (max-width: 575.98px) {
+  .header-main .logo img,
+  .offcanvas__logo img {
+    max-height: 44px;
+  }
+
+  .footer-section .widget-head img {
+    max-width: 180px;
+  }
+}

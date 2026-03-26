@@ -1,4 +1,4 @@
-﻿@{
+@{
     Layout = null;
 }
 <!DOCTYPE html>
@@ -109,7 +109,7 @@
                         <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                             <div class="offcanvas__logo">
                                 <a href='@Url.Action("Index", "Home")'>
-                                    <img src="/assets/img/logo/logo.svg" alt="logo-img">
+                                    <img src="/assets/img/logo/uk-visas-direct-logo.png" alt="UK Visas Direct logo">
                                 </a>
                             </div>
                             <div class="offcanvas__close">
@@ -226,171 +226,28 @@
                             <div class="header-left">
                                 <div class="logo">
                                     <a href='@Url.Action("Index", "Home")' class="header-logo">
-                                        <img src="/assets/img/logo/logo.svg" alt="logo-img">
+                                        <img src="/assets/img/logo/uk-visas-direct-logo.png" alt="UK Visas Direct logo">
                                     </a>
                                 </div>
                                 <div class="mean__menu-wrapper">
                                     <div class="main-menu">
                                         <nav id="mobile-menu">
                                             <ul>
-                                                <li class="has-dropdown active menu-thumb">
-                                                    <a href='@Url.Action("Index", "Home")'>
-                                                    Home 
-                                                    <i class="fas fa-angle-down"></i>
-                                                    </a>
-                                                    <ul class="submenu has-home-menu">
-                                                        <li class="border-none">
-                                                            <div class="row g-4">
-                                                                <div class="col-lg-3 home-menu">
-                                                                    <div class="home-menu-thumb">
-                                                                        <img src="/assets/img/header/home-1.jpg" alt="img">
-                                                                        <div class="demo-button">
-                                                                            <a href='@Url.Action("Index", "Home")' class="theme-btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a>
-                                                                            <a href='@Url.Action("IndexOnePage", "Home")' class="theme-btn">
-                                                                                <span>One Page</span>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="home-menu-content text-center">
-                                                                        <h4 class="home-menu-title">
-                                                                            Home 01
-                                                                        </h4>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-3  home-menu">
-                                                                    <div class="home-menu-thumb mb-15">
-                                                                        <img src="/assets/img/header/home-2.jpg" alt="img">
-                                                                        <div class="demo-button">
-                                                                            <a href='@Url.Action("Index2", "Home")' class="theme-btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a>
-                                                                            <a href='@Url.Action("IndexTwoPage", "Home")' class="theme-btn">
-                                                                                <span>One Page</span>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="home-menu-content text-center">
-                                                                        <h4 class="home-menu-title">
-                                                                            Home 02
-                                                                        </h4>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-3 home-menu">
-                                                                    <div class="home-menu-thumb mb-15">
-                                                                        <img src="/assets/img/header/home-3.jpg" alt="img">
-                                                                        <div class="demo-button">
-                                                                            <a href='@Url.Action("Index3", "Home")' class="theme-btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a>
-                                                                            <a href='@Url.Action("IndexThreePage", "Home")' class="theme-btn">
-                                                                                <span>One Page</span>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="home-menu-content text-center">
-                                                                        <h4 class="home-menu-title">
-                                                                            Home 03
-                                                                        </h4>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-lg-3 home-menu">
-                                                                    <div class="home-menu-thumb mb-15">
-                                                                        <img src="/assets/img/header/home-4.jpg" alt="img">
-                                                                        <div class="demo-button">
-                                                                            <a href='@Url.Action("Index4", "Home")' class="theme-btn">
-                                                                                <span>Multi Page</span>
-                                                                            </a>
-                                                                            <a href='@Url.Action("IndexFourPage", "Home")' class="theme-btn">
-                                                                                <span>One Page</span>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="home-menu-content text-center">
-                                                                        <h4 class="home-menu-title">
-                                                                            Home 04
-                                                                        </h4>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li class="has-dropdown active d-lg-none">
-                                                    <a href='@Url.Action("Team", "Home")' class="border-none">
-                                                    Home
-                                                    <i class="fas fa-angle-down"></i>
-                                                    </a>
-                                                    <ul class="submenu">
-                                                        <li><a href='@Url.Action("Index", "Home")'>Home 01</a></li>
-                                                        <li><a href='@Url.Action("Index2", "Home")'>Home 02</a></li>
-                                                        <li><a href='@Url.Action("Index3", "Home")'>Home 03</a></li>
-                                                        <li><a href='@Url.Action("Index4", "Home")'>Home 04</a></li>
-                                                    </ul>
+                                                <li class="active">
+                                                    <a href='@Url.Action("Index", "Home")'>Home</a>
                                                 </li>
                                                 <li>
                                                     <a href='@Url.Action("About", "Home")'>About</a>
                                                 </li>
                                                 <li>
-                                                    <a href='@Url.Action("Service", "Home")'>Visa <i class="fas fa-angle-down"></i>
+                                                    <a href='@Url.Action("Service", "Home")'>Visa
                                                   </a>
-                                                    <ul class="submenu">
-                                                        <li><a href='@Url.Action("Service", "Home")'>Visa</a></li>
-                                                        <li><a href='@Url.Action("ServiceDetails", "Home")'>Visa Details</a></li>
-                                                    </ul>
+                                            <li>
+                                                <a href='@Url.Action("Country", "Home")'>Countries </a>
                                                 </li>
-                                                <li class="has-dropdown">
-                                                    <a href='@Url.Action("News", "Home")'>
-                                                        Pages
-                                                        <i class="fas fa-angle-down"></i>
-                                                    </a>
-                                                    <ul class="submenu">
-                                                        <li class="has-dropdown">
-                                                            <a href='@Url.Action("CoachingDetails", "Home")'>
-                                                                Coaching
-                                                            <i class="fas fa-angle-down"></i>
-                                                            </a>
-                                                            <ul class="submenu">
-                                                                 <li><a href='@Url.Action("Coaching", "Home")'>Coaching </a></li>
-                                                                 <li><a href='@Url.Action("CoachingDetails", "Home")'>Coaching Details</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li class="has-dropdown">
-                                                            <a href='@Url.Action("CountryDetails", "Home")'>
-                                                                Countries
-                                                            <i class="fas fa-angle-down"></i>
-                                                            </a>
-                                                            <ul class="submenu">
-                                                                 <li><a href='@Url.Action("Country", "Home")'>Countries </a></li>
-                                                                 <li><a href='@Url.Action("CountryDetails", "Home")'>Country Details</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li class="has-dropdown">
-                                                            <a href='@Url.Action("Team", "Home")'>
-                                                            Team
-                                                            <i class="fas fa-angle-down"></i>
-                                                            </a>
-                                                            <ul class="submenu">
-                                                                <li><a href='@Url.Action("Team", "Home")'>Team</a></li>
-                                                                <li><a href='@Url.Action("TeamDetails", "Home")'>Team Details</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href='@Url.Action("Faq", "Home")'>Faq's</a></li>
-                                                        <li><a href='@Url.Action("Error404", "Home")'>404 Page</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li>
-                                                    <a href='@Url.Action("News", "Home")'>
-                                                        Blog
-                                                        <i class="fas fa-angle-down"></i>
-                                                    </a>
-                                                    <ul class="submenu">
-                                                        <li><a href='@Url.Action("NewsGrid", "Home")'>Blog Grid</a></li>
-                                                        <li><a href='@Url.Action("News", "Home")'>Blog Standard </a></li>
-                                                        <li><a href='@Url.Action("NewsDetails", "Home")'>Blog Details</a></li>
-                                                    </ul>
-                                                </li>
+                                            <li><a href='@Url.Action("NewsGrid", "Home")'>Blog</a></li>
+                                            <li><a href='@Url.Action("Team", "Home")'>Team</a></li>
+                                            
                                                 <li>
                                                     <a href='@Url.Action("Contact", "Home")'>Contact</a>
                                                 </li>
@@ -455,7 +312,7 @@
                                 <div class="single-footer-widget">
                                     <div class="widget-head">
                                         <a href='@Url.Action("Index", "Home")'>
-                                        <img src="/assets/img/logo/footer-logo.svg" alt="logo-img">
+                                        <img src="/assets/img/logo/uk-visas-direct-logo-footer-white.png" alt="UK Visas Direct logo">
                                         </a>
                                     </div>
                                     <div class="footer-content">
