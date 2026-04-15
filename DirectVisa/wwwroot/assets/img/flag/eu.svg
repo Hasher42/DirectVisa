@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 810 540">
+  <rect width="810" height="540" fill="#003399"/>
+  <defs>
+    <path id="eu-star" d="M0,-16 4.7,-4.9 15.6,-4.9 7.6,1.9 10.9,14.7 0,8.1 -10.9,14.7 -7.6,1.9 -15.6,-4.9 -4.7,-4.9z"/>
+  </defs>
+  <g fill="#FFCC00">
+    <g transform="translate(405,135) rotate(0)"><use href="#eu-star"/></g>
+    <g transform="translate(472.5,153.1) rotate(30)"><use href="#eu-star"/></g>
+    <g transform="translate(521.9,202.5) rotate(60)"><use href="#eu-star"/></g>
+    <g transform="translate(540,270) rotate(90)"><use href="#eu-star"/></g>
+    <g transform="translate(521.9,337.5) rotate(120)"><use href="#eu-star"/></g>
+    <g transform="translate(472.5,386.9) rotate(150)"><use href="#eu-star"/></g>
+    <g transform="translate(405,405) rotate(180)"><use href="#eu-star"/></g>
+    <g transform="translate(337.5,386.9) rotate(210)"><use href="#eu-star"/></g>
+    <g transform="translate(288.1,337.5) rotate(240)"><use href="#eu-star"/></g>
+    <g transform="translate(270,270) rotate(270)"><use href="#eu-star"/></g>
+    <g transform="translate(288.1,202.5) rotate(300)"><use href="#eu-star"/></g>
+    <g transform="translate(337.5,153.1) rotate(330)"><use href="#eu-star"/></g>
+  </g>
+</svg>
