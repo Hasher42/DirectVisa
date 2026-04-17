@@ -1251,6 +1251,11 @@ input.main-search-input::placeholder {
   top: 9px;
   left: 15px;
   z-index: 1;
+  width: 48px;
+  height: 24px;
+  overflow: hidden;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 @media (max-width: 767px) {
   .header-top-wrapper.style-2 .flag-wrap .flag {
@@ -1260,8 +1265,9 @@ input.main-search-input::placeholder {
 .header-top-wrapper.style-2 .flag-wrap .flag img {
   width: 100%;
   height: 100%;
-  border: 4px solid var(--white);
-  border-radius: 50%;
+  object-fit: contain;
+  border: 2px solid var(--white);
+  border-radius: 4px;
 }
 .header-top-wrapper.style-2 .top-right {
   gap: 35px;
@@ -6117,16 +6123,20 @@ input.main-search-input::placeholder {
   }
 }
 .countries-card-items .thumb {
-  width: 60px;
-  height: 60px;
+  width: 128px;
+  height: 64px;
   flex-shrink: 0;
   overflow: hidden;
   border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 .countries-card-items .thumb img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   transition: all 0.4s ease-in-out;
 }
@@ -6166,7 +6176,7 @@ input.main-search-input::placeholder {
   height: initial;
 }
 .country-box-items .flag-thumb {
-  width: 96px;
+  width: 128px;
   height: 64px;
   margin-left: auto;
   margin-right: auto;
@@ -6176,11 +6186,12 @@ input.main-search-input::placeholder {
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 0.06);
 }
 .country-box-items .flag-thumb img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center;
   transition: all 0.4s ease-in-out;
 }
@@ -6276,15 +6287,18 @@ input.main-search-input::placeholder {
   transform: translateX(-50%);
   background-color: var(--white);
   box-shadow: var(---box-shadow);
-  line-height: 50px;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  text-align: center;
+  border-radius: 6px;
+  width: 96px;
+  height: 48px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .single-country-items .country-image .flag img {
-  width: 35px;
-  height: 35px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   transition: all 0.4s ease-in-out;
 }
 .single-country-items .contry-content {
@@ -10662,14 +10676,13 @@ p.sticky-label {
   margin-top: 90px;
 }
 .single-branch-card .country-flag {
-  width: 120px;
-  height: 120px;
-  line-height: 120px;
-  border-radius: 50%;
+  width: 140px;
+  height: 88px;
+  border-radius: 8px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1019607843);
   display: inline-block;
   margin-bottom: 20px;
-  margin-top: -60px;
+  margin-top: -44px;
 }
 .single-branch-card .content h4 {
   position: relative;
