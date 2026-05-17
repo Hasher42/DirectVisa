@@ -1,0 +1,56 @@
+@{
+    var showCta = ViewData["NewsViewsShowCta"] as bool? ?? true;
+}
+<section class="news-section news-views-section fix section-padding">
+    <div class="container">
+        <div class="section-title text-center">
+            <h2 class="title-anim wow fadeInUp">News and Views</h2>
+        </div>
+        <div class="row g-4 justify-content-center news-views-grid">
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                <article class="news-views-card">
+                    <a class="news-views-card-image" href="https://study-uk.britishcouncil.org/blog" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/img/news-views/british-council.jpg" alt="British Council study UK blog">
+                    </a>
+                    <div class="news-views-card-body">
+                        <h3>
+                            <a href="https://study-uk.britishcouncil.org/blog" target="_blank" rel="noopener noreferrer">British Council</a>
+                        </h3>
+                    </div>
+                </article>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                <article class="news-views-card">
+                    <a class="news-views-card-image" href="https://homeofficemedia.blog.gov.uk" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/img/news-views/home-office.webp" alt="Home Office media blog">
+                    </a>
+                    <div class="news-views-card-body">
+                        <h3>
+                            <a href="https://homeofficemedia.blog.gov.uk" target="_blank" rel="noopener noreferrer">Home Office</a>
+                        </h3>
+                    </div>
+                </article>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                <article class="news-views-card">
+                    <a class="news-views-card-image" href="https://www.ein.org.uk/guest-blog" target="_blank" rel="noopener noreferrer">
+                        <img src="/assets/img/news-views/electronic-immigration-network.webp" alt="Electronic immigration network guest blog">
+                    </a>
+                    <div class="news-views-card-body">
+                        <h3>
+                            <a href="https://www.ein.org.uk/guest-blog" target="_blank" rel="noopener noreferrer">Electronic immigration network</a>
+                        </h3>
+                    </div>
+                </article>
+            </div>
+        </div>
+        @if (showCta)
+        {
+            <div class="text-center news-views-cta wow fadeInUp" data-wow-delay=".7s">
+                <a href='@Url.Action("NewsGrid", "Home")' class="theme-btn news-views-btn">
+                    <span>Read The Blog <i class="fas fa-long-arrow-right"></i></span>
+                </a>
+            </div>
+        }
+    </div>
+</section>

@@ -148,24 +148,14 @@
                                     <p class=" mt-4 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
                                         Transmds is the worldâ€™s driving worldwide coordinations supplier â€” we uphold industry and exchange the worldwide trade of merchandi
                                     </p>
-                                    <div class="circle-progress-bar-wrapper">
+                                    <div class="circle-progress-bar-wrapper about-satisfaction-stat">
                                         <div class="single-circle-bar wow fadeInUp" data-wow-delay=".3s">
-                                            <div class="circle-bar" data-percent="68" data-duration="1000">
+                                            <div class="circle-bar" data-percent="100" data-duration="1000">
                                             </div>
                                             <div class="content">
                                                 <h6>
-                                                    Business <br>
-                                                    Strategy
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div class="single-circle-bar wow fadeInUp" data-wow-delay=".5s">
-                                            <div class="circle-bar" data-percent="93" data-duration="1000">
-                                            </div>
-                                            <div class="content">
-                                                <h6>
-                                                    Real Technology <br>
-                                                    Solutions
+                                                    Client <br>
+                                                    Satisfaction
                                                 </h6>
                                             </div>
                                         </div>
@@ -194,10 +184,10 @@
                                             </a>
                                         </div>
                                         <div class="author-image wow fadeInUp" data-wow-delay=".9s">
-                                            <img src="/assets/img/about/author.png" alt="author-img">
+                                            <img src="/assets/img/team/shahid-aslam.png" alt="Shahid Aslam">
                                             <div class="content">
-                                                <img src="/assets/img/about/signature.png" alt="signature">
-                                                <p>Ceo & Founder</p>
+                                                <p class="about-signature-name">Shahid Aslam</p>
+                                                <p>CEO</p>
                                             </div>
                                         </div>
                                     </div>
@@ -335,8 +325,17 @@
                                      </a>
                                  </div>
                              </div>
-                             <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                                 <div class="service-card-items mt-0">
+                             <div class="col-xl-8 col-lg-8 col-md-12 order-2 order-xl-2 wow fadeInUp" data-wow-delay=".5s">
+                                 <div class="service-card-items service-logo-card mt-0">
+                                     <div class="service-logo-wrap">
+                                         <a href='@Url.Action("Index", "Home")'>
+                                             <img src="/assets/img/logo/uk-visas-direct-logo.png" alt="UK Visas Direct logo">
+                                         </a>
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="col-xl-4 col-lg-4 col-md-6 order-1 order-xl-1 wow fadeInUp" data-wow-delay=".3s">
+                                 <div class="service-card-items active mt-0">
                                      <h3><a href='@Url.Action("ServiceDetails", "Home", new { key = "appeal-and-reviews" })'>Appeal and Reviews</a></h3>
                                      <p>
                                          &bull; Pre-Action Protocol <br>
@@ -355,6 +354,59 @@
                              </div>
                         </div>
                      </div>
+                </div>
+            </section>
+
+            <!--<< Appeal / PAP & Judicial Review Teaser Start >>-->
+            <section class="about-section fix section-padding pt-0">
+                <div class="container">
+                    <div class="about-wrapper">
+                        <div class="row align-items-center g-4">
+                            <div class="col-lg-6 wow fadeInLeft" data-wow-delay=".3s">
+                                <div class="text-center text-lg-start">
+                                    <img src="/assets/img/appeal/uk-justice-gavel.png"
+                                         alt="UK justice — gavel, scales and law book with Union Jack"
+                                         class="img-fluid"
+                                         style="border-radius: 8px; max-width: 100%;">
+                                </div>
+                            </div>
+                            <div class="col-lg-6 mt-4 mt-lg-0">
+                                <div class="about-content">
+                                    <div class="section-title">
+                                        <span class="wow fadeInUp" style="color:#dc3545;">UK Visa Refused?</span>
+                                        <h2 class="title-anim">
+                                            Pre-Action Protocol &amp; <br> Judicial Review
+                                        </h2>
+                                    </div>
+                                    <p class="mt-4 mt-md-0 wow fadeInUp" data-wow-delay=".3s">
+                                        A <strong>Pre-Action Protocol (PAP) letter</strong> is the mandatory formal step to challenge an unlawful UK visa refusal &mdash; giving the Home Office <strong>14 days</strong> to review the decision. If they refuse to change it, the next step is a <strong>Judicial Review (JR)</strong> at the Upper Tribunal.
+                                    </p>
+                                    <ul class="about-list wow fadeInUp" data-wow-delay=".5s">
+                                        <li>
+                                            <i class="far fa-check me-2"></i>
+                                            Identify errors of law, irrationality or procedural unfairness
+                                        </li>
+                                        <li>
+                                            <i class="far fa-check me-2"></i>
+                                            Often resolves the refusal without going to court
+                                        </li>
+                                        <li>
+                                            <i class="far fa-check me-2"></i>
+                                            We also advise when a fresh application is faster &amp; cheaper
+                                        </li>
+                                    </ul>
+                                    <div class="about-button mt-4 wow fadeInUp" data-wow-delay=".7s">
+                                        <a href='@Url.Action("AppealJudicialReview", "Home")' class="theme-btn">
+                                            <span>
+                                                Read the PAP &amp; JR guide
+                                                <i class="fas fa-chevron-right"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -439,9 +491,7 @@
                                     </div>
                                     <div class="content">
                                         <h3>Visa Process</h3>
-                                        <p>
-                                            Sed perspiciatis undm nise este natus sit volutate
-                                        </p>
+                                        <p>Simple and efficient visa process</p>
                                     </div>
                                 </div>
                             </div>
@@ -452,9 +502,7 @@
                                     </div>
                                     <div class="content">
                                         <h3>High Visa Approval</h3>
-                                        <p>
-                                            Sed perspiciatis undm nise este natus sit volutate
-                                        </p>
+                                        <p>We guarantee you the highest chances of visa approval</p>
                                     </div>
                                 </div>
                             </div>
@@ -465,9 +513,7 @@
                                     </div>
                                     <div class="content">
                                         <h3>Immigration</h3>
-                                        <p>
-                                            Sed perspiciatis undm nise este natus sit volutate
-                                        </p>
+                                        <p>We will provide honest advice and guidance on routes to permanent settlement</p>
                                     </div>
                                 </div>
                             </div>
@@ -477,7 +523,7 @@
             </section>
     
             <!--<< Team Section Start >>-->
-            <section class="team-section section-padding">
+            <section class="team-section team-section-uniform section-padding">
                 <div class="container">
                     <div class="section-title text-center">
                         <span class="wow fadeInUp">Professional people</span>
@@ -485,11 +531,11 @@
                             Meet Our Expert Visa <br> Consultants.
                         </h2>
                     </div>
-                   <div class="row">
+                   <div class="row g-4 align-items-stretch justify-content-center">
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="team-box-items style-2">
+                            <div class="team-box-items">
                                 <div class="team-image">
-                                    <img src="/assets/img/team/01.jpg" alt="img">
+                                    <img src="/assets/img/team/shahid-aslam.png" alt="Shahid Aslam">
                                     <ul class="social-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -501,20 +547,20 @@
                                             <a href="#"><i class="fab fa-instagram"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="team-content">
-                                    <h3><a href='@Url.Action("TeamDetails", "Home")'>Devid Miller</a></h3>
-                                    <p>Consultant</p>
+                                <div class="team-content text-center">
+                                    <h3><a href='@Url.Action("TeamDetails", "Home")'>Shahid Aslam</a></h3>
+                                    <p>CEO and Senior Consultant &ndash; UK &amp; Schengen</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
                             <div class="team-box-items">
                                 <div class="team-image">
-                                    <img src="/assets/img/team/02.jpg" alt="img">
+                                    <img src="/assets/img/team/waqaz-zafeer-abbasi.png" alt="Waqaz Zafeer Abbasi">
                                     <ul class="social-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -526,45 +572,20 @@
                                             <a href="#"><i class="fab fa-instagram"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="team-content">
-                                    <h3><a href='@Url.Action("TeamDetails", "Home")'>Ritu Ratia</a></h3>
-                                    <p>Consultant</p>
+                                <div class="team-content text-center">
+                                    <h3><a href='@Url.Action("TeamDetails", "Home")'>Waqaz Zafeer Abbasi</a></h3>
+                                    <p>Senior Consultant &ndash; USA &amp; Canada</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                            <div class="team-box-items style-2">
-                                <div class="team-image">
-                                    <img src="/assets/img/team/03.jpg" alt="img">
-                                    <ul class="social-icon d-grid justify-content-center align-items-center">
-                                        <li>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-instagram"></i></a>
-                                        </li>
-                                        <li>
-                                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="team-content">
-                                    <h3><a href='@Url.Action("TeamDetails", "Home")'>Shikhon Islam</a></h3>
-                                    <p>Consultant</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".9s">
                             <div class="team-box-items">
                                 <div class="team-image">
-                                    <img src="/assets/img/team/04.jpg" alt="img">
+                                    <img src="/assets/img/team/nafia-hafeez.png" alt="Nadia Hafeez">
                                     <ul class="social-icon d-grid justify-content-center align-items-center">
                                         <li>
                                             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -576,13 +597,13 @@
                                             <a href="#"><i class="fab fa-instagram"></i></a>
                                         </li>
                                         <li>
-                                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="team-content">
-                                    <h3><a href='@Url.Action("TeamDetails", "Home")'>Sonsil Macron</a></h3>
-                                    <p>Consultant</p>
+                                <div class="team-content text-center">
+                                    <h3><a href='@Url.Action("TeamDetails", "Home")'>Nadia Hafeez</a></h3>
+                                    <p>Practise Manager &amp; Junior Consultant &ndash; UK</p>
                                 </div>
                             </div>
                         </div>
@@ -590,6 +611,62 @@
                 </div>
             </section>
     
+            <!--<< Migration Awareness Summary Section Start >>-->
+            <section class="about-section fix section-padding pt-0">
+                <div class="container">
+                    <div class="about-wrapper">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 wow fadeInLeft" data-wow-delay=".3s">
+                                <div class="text-center text-lg-start">
+                                    <img src="/assets/img/awareness/dont-risk-your-future.png"
+                                         alt="Don't risk your future or your life — the world is cracking down on illegal migration"
+                                         class="img-fluid"
+                                         style="max-height: 560px; width: auto; border-radius: 8px;">
+                                </div>
+                            </div>
+                            <div class="col-lg-7 mt-5 mt-lg-0">
+                                <div class="about-content">
+                                    <div class="section-title">
+                                        <span class="wow fadeInUp" style="color:#dc3545;">Important Public Notice</span>
+                                        <h2 class="title-anim">
+                                            Don&rsquo;t Risk Your Future <br> or Your Life
+                                        </h2>
+                                    </div>
+                                    <p class="mt-4 mt-md-0 wow fadeInUp" data-wow-delay=".3s">
+                                        The world is cracking down on illegal migration. Pakistan is not on a formal international &ldquo;blacklist&rdquo;, but Pakistani applicants are facing heightened scrutiny, university restrictions, airport offloading, AI-based profiling and lifetime travel bans for deportees.
+                                    </p>
+                                    <p class="wow fadeInUp" data-wow-delay=".4s">
+                                        Illegal routes to Europe and the UK &mdash; sea crossings via Morocco, Greece and beyond &mdash; are not &ldquo;safer&rdquo; or &ldquo;guaranteed&rdquo;. They have cost hundreds of Pakistani lives, drained families of &pound;9,000&ndash;&pound;12,500, and trapped migrants inside criminal smuggling networks with no protection.
+                                    </p>
+                                    <ul class="about-list wow fadeInUp" data-wow-delay=".5s">
+                                        <li>
+                                            <i class="far fa-check me-2"></i>
+                                            Stronger laws, tougher borders, severe penalties
+                                        </li>
+                                        <li>
+                                            <i class="far fa-check me-2"></i>
+                                            Permanent passport cancellation &amp; 5-year national blacklist for deportees
+                                        </li>
+                                        <li>
+                                            <i class="far fa-check me-2"></i>
+                                            Lawful UK routes &mdash; work, study, family, protection &mdash; are still open
+                                        </li>
+                                    </ul>
+                                    <div class="about-button mt-4 wow fadeInUp" data-wow-delay=".7s">
+                                        <a href='@Url.Action("MigrationAwareness", "Home")' class="theme-btn">
+                                            <span>
+                                                Read the full advisory
+                                                <i class="fas fa-chevron-right"></i>
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             <!--<<Choose us section Start >>-->
             <section class="choose-us-section section-padding pt-0">
                 <div class="container">
@@ -598,18 +675,25 @@
                             <div class="col-lg-5">
                                 <div class="choose-us-content">
                                     <div class="section-title">
-                                        <span class="wow fadeInUp">Why Choose Us</span>
-                                        <h2 class="title-anim">Some Reasons People <br> Like Our Consultancy</h2>
+                                        <h2 class="title-anim">Why Clients Choose Us</h2>
                                     </div>
-                                    <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">Our clients can rely on us giving them 100% Honest advice, 100% Professional and Trustworthy Service and Maximum chances of Visa Approval.</p>
+                                    <p class="mt-3 mt-md-0 wow fadeInUp" data-wow-delay=".5s">Clients choose us because they know they will receive honest advice, a professional and trustworthy service, and clear guidance designed to give their visa application the best possible chance of success.</p>
                                     <div class="icon-box-items wow fadeInUp" data-wow-delay=".3s">
                                         <div class="icon">
                                             <i class="flaticon-customer-service"></i>
                                         </div>
                                         <div class="content">
-                                            <h3 class="mb-2">Direct Online Consultation with Our UK Based Lawyers</h3>
-                                            <p>We are a dynamic and forward-thinking 
-                                                startup <br> dedicated to revolution</p>
+                                            <h3 class="mb-2">Direct Online Consultation with UK-Based Lawyers</h3>
+                                            <p>Speak directly with experienced UK-based lawyers from the comfort of your home. We provide clear, practical advice tailored to your circumstances.</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-box-items wow fadeInUp" data-wow-delay=".4s">
+                                        <div class="icon">
+                                            <i class="flaticon-immigration-law"></i>
+                                        </div>
+                                        <div class="content">
+                                            <h3 class="mb-2">Honest, Professional &amp; Trustworthy Service</h3>
+                                            <p>We give straightforward advice from the outset. If your case has weaknesses, we will tell you clearly and explain the best way forward.</p>
                                         </div>
                                     </div>
                                     <div class="icon-box-items wow fadeInUp" data-wow-delay=".5s">
@@ -617,20 +701,17 @@
                                             <i class="flaticon-immigration-law-2"></i>
                                         </div>
                                         <div class="content">
-                                            <h3 class="mb-2">
-                                                Quick & Easy Process</h3>
-                                            <p>We are a dynamic and forward-thinking 
-                                                startup <br> dedicated to revolution</p>
+                                            <h3 class="mb-2">Quick &amp; Easy Process</h3>
+                                            <p>We make the process as smooth and stress-free as possible, guiding you step by step from consultation to submission.</p>
                                         </div>
                                     </div>
-                                    <div class="icon-box-items wow fadeInUp" data-wow-delay=".3s">
+                                    <div class="icon-box-items wow fadeInUp" data-wow-delay=".7s">
                                         <div class="icon">
                                             <i class="flaticon-document"></i>
                                         </div>
                                         <div class="content">
-                                            <h3 class="mb-2">Maximum Chances for Visa Approval</h3>
-                                            <p>We are a dynamic and forward-thinking 
-                                                startup <br> dedicated to revolution</p>
+                                            <h3 class="mb-2">Maximum Chances of Visa Approval</h3>
+                                            <p>We prepare applications carefully, identify potential issues early, and ensure your evidence is presented in the strongest possible way.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -640,13 +721,15 @@
                                     <div class="row g-4">
                                         <div class="col-lg-7 wow fadeInUp" data-wow-delay=".3s">
                                             <div class="choose-image-1">
-                                                <img src="/assets/img/choose-us/01.jpg" alt="img">
+                                                <img src="/assets/img/choose-us/01.jpg" alt="UK visa consultation with passport">
                                             </div>
                                         </div>
-                                        <div class="col-lg-5">
-                                            <div class="choose-image-2 bg-cover wow fadeInUp" data-wow-delay=".3s" style="background-image: url('/assets/img/choose-us/02.jpg');"></div>
+                                        <div class="col-lg-5 choose-us-side-images">
+                                            <div class="choose-image-2 wow fadeInUp" data-wow-delay=".3s">
+                                                <img src="/assets/img/choose-us/02.jpg" alt="Immigration consultation">
+                                            </div>
                                             <div class="choose-image-3 wow fadeInUp" data-wow-delay=".5s">
-                                                <img src="/assets/img/choose-us/03.jpg" alt="img">
+                                                <img src="/assets/img/choose-us/03.jpg" alt="Visa applicants at airport">
                                             </div>
                                         </div>
                                     </div>
@@ -661,159 +744,93 @@
                 </div>
             </section>
     
-            <!--<< Counter Section Start >>-->
-            <section class="counter-section section-padding section-bg">
-                <div class="container">
-                    <div class="counter-wrapper">
-                        <div class="row g-4">
-                            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                                <div class="counter-items text-center">
-                                    <div class="icon center">
-                                        <i class="flaticon-around"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h2><span class="count">35</span>+</h2>
-                                        <p>
-                                            Countries <br>
-                                            Represented
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                                <div class="counter-items text-center">
-                                    <div class="icon center">
-                                        <i class="flaticon-visa-2"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h2><span class="count">853</span>+</h2>
-                                        <p>
-                                            Completed <br>
-                                            Visa Passport
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                                <div class="counter-items text-center">
-                                    <div class="icon center">
-                                        <i class="flaticon-money"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h2><span class="count">55</span>M+</h2>
-                                        <p>
-                                            Revenew <br>
-                                            In per year
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".9s">
-                                <div class="counter-items text-center">
-                                    <div class="icon center">
-                                       <i class="flaticon-immigration-officer"></i>
-                                    </div>
-                                    <div class="content">
-                                        <h2><span class="count">35</span>+</h2>
-                                        <p>
-                                            Experience <br>
-                                            immigration officer
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-    
             <!--<< Testimonial Section Start >>-->
             <section class="testimonial-section section-padding">
                 <div class="container">
                     <div class="section-title text-center">
-                        <span class="wow fadeInUp">Our Testimonials</span>
-                        <h2 class="title-anim">
-                            Letâ€™s Explore Why People Say <br> About Our Services
-                        </h2>
+                        <span class="wow fadeInUp">Testimonials</span>
+                        <h2 class="title-anim">Your Opinions Matter</h2>
                     </div>
                     <div class="testimonial-carousel-active">
                         <div class="testimonial-card-items">
                             <div class="author-items">
                                 <div class="author-image bg-cover" style="background-image: url('/assets/img/testimonial/01.png');"></div>
                                 <div class="author-content">
-                                    <h5>Kawser Ahmed</h5>
-                                    <span>Web Developer</span>
+                                    <h5>Tanveer Nazir</h5>
+                                    <span>CEO – Uniguide Consultancy Services</span>
                                 </div>
                             </div>
-                            <p>
-                                creative agency, we believe in the Eid
-                                and innovation. We are constantly melt
-                                of what is possible, and strive to cat 
-                                only bea utiful and effective,but shark 
-                                inventore veritatis et quasi archite 
-                                cto beatae citae dicta sunt atlantic
-                            </p>
-                            <ul>
-                                <li>January 23, 2024</li>
-                            </ul>
-                        </div>
-                        <div class="testimonial-card-items">
-                            <div class="author-items">
-                                <div class="author-image bg-cover" style="background-image: url('/assets/img/testimonial/03.png');"></div>
-                                <div class="author-content">
-                                    <h5>Jhon Dev</h5>
-                                    <span>UI Designer</span>
-                                </div>
-                            </div>
-                            <p>
-                                creative agency, we believe in the Eid
-                                and innovation. We are constantly melt
-                                of what is possible, and strive to cat 
-                                only bea utiful and effective,but shark 
-                                inventore veritatis et quasi archite 
-                                cto beatae citae dicta sunt atlantic
-                            </p>
-                            <ul>
-                                <li>January 23, 2024</li>
-                            </ul>
+                            <p>I am honoured to recommend Shahid Aslam. I have known him for many years, dating back to his time in Pakistan. He is an extraordinary intellectual and undoubtedly a genius. One of his greatest strengths is that he is an excellent reader and listener. He has a remarkable ability to understand issues and provide solutions quickly. He once took on a case and confidently assured us that success would be achieved. His words turned out to be completely accurate, and we were 100% satisfied with the outcome, just as he had mentioned during our discussion. Individuals like him are rare in this world, especially when we consider someone who is truly a man of his word and never breaks his commitments.</p>
                         </div>
                         <div class="testimonial-card-items">
                             <div class="author-items">
                                 <div class="author-image bg-cover" style="background-image: url('/assets/img/testimonial/02.png');"></div>
                                 <div class="author-content">
-                                    <h5>Salman Ahmed</h5>
-                                    <span>WordPress Developer</span>
+                                    <h5>Helen Cornwall</h5>
+                                    <span>Virtual Personal Assistant</span>
                                 </div>
                             </div>
-                            <p>
-                                creative agency, we believe in the Eid
-                                and innovation. We are constantly melt
-                                of what is possible, and strive to cat
-                                we pride ourselve on delivering
-                            </p>
-                            <ul>
-                                <li>May 15, 2023</li>
-                            </ul>
+                            <p>Shahid&rsquo;s approach to legal strategy was not only meticulous and principled, but also deeply human. He brought clarity and confidence to complex legal matters while remaining approachable and supportive to those around him. His ability to balance rigorous legal standards with genuine care for the people within the company made him a standout leader and a trusted colleague. Working with Shahid was both rewarding and inspiring. He fostered a respectful and collaborative environment, always taking the time to listen, mentor, and uplift others. His integrity was unwavering, and his dedication to doing what&rsquo;s right, both legally and morally, left a lasting impression on everyone he worked with.</p>
+                        </div>
+                        <div class="testimonial-card-items">
+                            <div class="author-items">
+                                <div class="author-image bg-cover" style="background-image: url('/assets/img/testimonial/03.png');"></div>
+                                <div class="author-content">
+                                    <h5>Javed Mughal</h5>
+                                    <span>Head Physiotherapist – Rainham Physiotherapy Centre</span>
+                                </div>
+                            </div>
+                            <p>I have used Shahid for various issues and the outcomes have always been favourable. His attention to detail in all aspects of his work are second to none, and I would have no issues in recommending his services.</p>
                         </div>
                         <div class="testimonial-card-items">
                             <div class="author-items">
                                 <div class="author-image bg-cover" style="background-image: url('/assets/img/testimonial/01.png');"></div>
                                 <div class="author-content">
-                                    <h5>Shikon Islam</h5>
-                                    <span>Frontend Engineer</span>
+                                    <h5>Ahsan A Rauf</h5>
+                                    <span>Key Account Director – RINA, UAE</span>
                                 </div>
                             </div>
-                            <p>
-                                creative agency, we believe in the Eid
-                                and innovation. We are constantly melt
-                                of what is possible, and strive to cat 
-                                only bea utiful and effective,but shark 
-                                inventore veritatis et quasi archite 
-                                cto beatae citae dicta sunt atlantic
-                            </p>
-                            <ul>
-                                <li>January 23, 2024</li>
-                            </ul>
+                            <p>From the outset, it was evident that Shahid brought a rare blend of deep legal acumen, measured judgment, and unwavering integrity to everything he did.</p>
+                        </div>
+                        <div class="testimonial-card-items">
+                            <div class="author-items">
+                                <div class="author-image bg-cover" style="background-image: url('/assets/img/testimonial/02.png');"></div>
+                                <div class="author-content">
+                                    <h5>Arslan Saif</h5>
+                                    <span>Corporate Lawyer – Fintech, Pakistan</span>
+                                </div>
+                            </div>
+                            <p>Shahid has consistently demonstrated exceptional legal acumen, strategic thinking, and a deep understanding of both the legal and business landscapes. He consistently approached each challenge with professionalism, insight, and a calm, solution-oriented mindset.</p>
+                        </div>
+                        <div class="testimonial-card-items">
+                            <div class="author-items">
+                                <div class="author-image bg-cover" style="background-image: url('/assets/img/testimonial/03.png');"></div>
+                                <div class="author-content">
+                                    <h5>Majid Zaman</h5>
+                                    <span>Rahber Travels – Pakistan</span>
+                                </div>
+                            </div>
+                            <p>I&rsquo;ve known Mr Shahid Aslam for more than a decade now. He has done a lot of work for me and my family successfully and to entire satisfaction including visit visas for my family and I, student visas for my kids, parent of a child at school visa for my wife, retired person of independent means visa for my father and recently Tier 1 entrepreneur visa for myself. I strongly recommend Shahid&rsquo;s services. The best part of his service is his solid grip on immigration laws and his great communication as you never have to chase him.</p>
+                        </div>
+                        <div class="testimonial-card-items">
+                            <div class="author-items">
+                                <div class="author-image bg-cover" style="background-image: url('/assets/img/testimonial/01.png');"></div>
+                                <div class="author-content">
+                                    <h5>Bilal Farooq</h5>
+                                    <span>Elegance Glazing Ltd – Gravesend</span>
+                                </div>
+                            </div>
+                            <p>I was very satisfied with the service provided. If you are looking for hard working honest guy than Shahid Aslam is the solicitor to use. He kept me informed at every stage of the application and his fees were reasonable. I would highly recommend his service to anyone.</p>
+                        </div>
+                        <div class="testimonial-card-items">
+                            <div class="author-items">
+                                <div class="author-image bg-cover" style="background-image: url('/assets/img/testimonial/02.png');"></div>
+                                <div class="author-content">
+                                    <h5>Shazia Erum and Kashif</h5>
+                                    <span>Hayes</span>
+                                </div>
+                            </div>
+                            <p>We would like to recommend Shahid Aslam to all those people who want to solve any type of legal matter. Personally, we had experience with him to solve our immigration matter and we are more than happy that we chose the right person who has good knowledge and understanding of law and looked after our case until it was solved. Mr Aslam never misguides anyone and gives the right advise to make the correct choice. We are more than satisfied and very happy with the results and always recommend their name to everyone if they want the right person for personal and legal satisfaction. I have no words to explain how good they are.</p>
                         </div>
                     </div>
                 </div>
@@ -828,13 +845,13 @@
                                 <i class="flaticon-chat"></i>
                             </div>
                             <div class="content">
-                                <h3>Letâ€™s Discuss & Start Visa Consultations</h3>
-                                <p>Lorem ipsum dolor sit amet, consectetur notted adipisicin</p>
+                                <h3>Start a visa Consultation</h3>
+                                <p>Speak with our UK immigration specialists for clear, honest advice tailored to your case.</p>
                             </div>
                         </div>
                         <a href='@Url.Action("Contact", "Home")' class="theme-btn bg-white wow fadeInUp" data-wow-delay=".5s">
                            <span>
-                                Lets Get Started
+                                Get Started
                                 <i class="fas fa-chevron-right"></i>
                            </span>
                         </a>
@@ -858,58 +875,44 @@
                             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                                 <div class="work-process-items text-center">
                                     <div class="icon">
-                                        <i class="flaticon-passport-5"></i>
-                                        <h6 class="number">
-                                            1
-                                        </h6>
+                                        <i class="flaticon-customer-service"></i>
+                                        <h6 class="number">1</h6>
                                     </div>
                                     <div class="content">
-                                        <h4>Choose A Service</h4>
-                                        <p>
-                                            In a free hour, when our power of choice is untrammeled and 
-                                        </p>
+                                        <h4>Request A Meeting</h4>
+                                        <p>Book a consultation with our team to discuss your visa needs and the best route for your situation.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                                 <div class="work-process-items text-center">
                                     <div class="content style-2">
-                                        <h4>Documents and Payments</h4>
-                                        <p>
-                                            In a free hour, when our power of choice is untrammeled and 
-                                        </p>
+                                        <h4>Choose Your Service</h4>
+                                        <p>Select the visa category that matches your goals, with clear guidance on requirements and next steps.</p>
                                     </div>
                                     <div class="icon">
-                                        <i class="flaticon-money"></i>
-                                        <h6 class="number">
-                                            2
-                                        </h6>
+                                        <i class="flaticon-passport-5"></i>
+                                        <h6 class="number">2</h6>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                                 <div class="work-process-items text-center">
                                     <div class="icon">
-                                        <i class="flaticon-customer-service"></i>
-                                        <h6 class="number">
-                                            3
-                                        </h6>
+                                        <i class="flaticon-document"></i>
+                                        <h6 class="number">3</h6>
                                     </div>
                                     <div class="content">
-                                        <h4>Request A Meeting</h4>
-                                        <p>
-                                            In a free hour, when our power of choice is untrammeled and 
-                                        </p>
+                                        <h4>Prepare &amp; Submit Application</h4>
+                                        <p>We help you gather evidence, complete forms accurately, and submit a strong application.</p>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".8s">
                                 <div class="work-process-items text-center">
                                     <div class="content style-2">
-                                        <h4>Receive your Visa Now</h4>
-                                        <p>
-                                            In a free hour, when our power of choice is untrammeled and 
-                                        </p>
+                                        <h4>Receive Your Visa Now</h4>
+                                        <p>Track progress with us until a decision is made and your visa outcome is confirmed.</p>
                                     </div>
                                     <div class="icon">
                                         <i class="flaticon-visa"></i>
@@ -997,7 +1000,7 @@
                             <div class="col-xl-6 col-lg-6">
                                 <div class="contact-right">
                                     <div class="google-map-box">
-                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6678.7619084840835!2d144.9618311901502!3d-37.81450084255415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642b4758afc1d%3A0x3119cc820fdfc62e!2sEnvato!5e0!3m2!1sen!2sbd!4v1641984054261!5m2!1sen!2sbd" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                                        <iframe src="https://maps.google.com/maps?q=First+Floor,+Plaza+2000,+I-8+Markaz,+Islamabad,+Pakistan&amp;hl=en&amp;z=15&amp;output=embed" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="UK Visas Direct — I-8 Markaz, Islamabad"></iframe>
                                     </div>
                                 </div>
                             </div>
@@ -1006,104 +1009,8 @@
                 </div>
             </section>
     
-            <!--<< News Section Start >>-->
-            <section class="news-section fix section-padding">
-                <div class="container">
-                    <div class="section-title text-center">
-                        <span class="wow fadeInUp">News & Blog</span>
-                        <h2 class="title-anim">Read Our Latest News & Blog</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                            <div class="news-box-items">
-                                <div class="news-image">
-                                    <img src="/assets/img/news/01.jpg" alt="img">
-                                    <img src="/assets/img/news/01.jpg" alt="img">
-                                    <h6 class="date">26 <span>Nov</span></h6>
-                                </div>
-                                <div class="news-content">
-                                    <ul class="post-date">
-                                        <li>
-                                            <i class="far fa-user-circle"></i>
-                                            Shikhon .H
-                                        </li>
-                                        <li>
-                                            <i class="fal fa-comments"></i>
-                                            Comments (03)
-                                        </li>
-                                    </ul>
-                                    <h3><a href='@Url.Action("NewsDetails", "Home")'>Navigating Borders Ultimate Guide to Visa Success</a></h3>
-                                    <p>
-                                        Transmds is the worldâ€™s driving worldwide coordinations supplier
-                                        we uphold.
-                                    </p>
-                                    <a href='@Url.Action("NewsDetails", "Home")' class="link-btn">
-                                        <span>Read More</span> <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                            <div class="news-box-items">
-                                <div class="news-image">
-                                    <img src="/assets/img/news/02.jpg" alt="img">
-                                    <img src="/assets/img/news/02.jpg" alt="img">
-                                    <h6 class="date">11 <span>Dec</span></h6>
-                                </div>
-                                <div class="news-content">
-                                    <ul class="post-date">
-                                        <li>
-                                            <i class="far fa-user-circle"></i>
-                                            Shikhon .H
-                                        </li>
-                                        <li>
-                                            <i class="fal fa-comments"></i>
-                                            Comments (03)
-                                        </li>
-                                    </ul>
-                                    <h3><a href='@Url.Action("NewsDetails", "Home")'>Unlocking Opportunities The Visa Journey Unveiled</a></h3>
-                                    <p>
-                                        Transmds is the worldâ€™s driving worldwide coordinations supplier
-                                        we uphold.
-                                    </p>
-                                    <a href='@Url.Action("NewsDetails", "Home")' class="link-btn">
-                                        <span>Read More</span> <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                            <div class="news-box-items">
-                                <div class="news-image">
-                                    <img src="/assets/img/news/09.jpg" alt="img">
-                                    <img src="/assets/img/news/09.jpg" alt="img">
-                                    <h6 class="date">27 <span>Sep</span></h6>
-                                </div>
-                                <div class="news-content">
-                                    <ul class="post-date">
-                                        <li>
-                                            <i class="far fa-user-circle"></i>
-                                            Shikhon .H
-                                        </li>
-                                        <li>
-                                            <i class="fal fa-comments"></i>
-                                            Comments (03)
-                                        </li>
-                                    </ul>
-                                    <h3><a href='@Url.Action("NewsDetails", "Home")'>Navigating Borders Ultimate Guide to Visa Success</a></h3>
-                                    <p>
-                                        Transmds is the worldâ€™s driving worldwide coordinations supplier
-                                        we uphold.
-                                    </p>
-                                    <a href='@Url.Action("NewsDetails", "Home")' class="link-btn">
-                                        <span>Read More</span> <i class="fas fa-chevron-right"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <partial name="_NewsAndViews" />
+            
     
             
 

@@ -155,6 +155,8 @@ namespace DirectVisa.Controllers
         public IActionResult Team() => View();
         public IActionResult TeamDetails() => View();
         public IActionResult Faq() => View();
+        public IActionResult MigrationAwareness() => View();
+        public IActionResult AppealJudicialReview() => View();
         public IActionResult Error404() => View();
         public IActionResult News() => View();
         public IActionResult NewsGrid() => View();
